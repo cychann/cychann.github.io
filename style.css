@@ -44,17 +44,27 @@ a {
 }
 
 .navbar {
-  background-color: var(--color-gray);
+  background-color: var(--color-silver);
   color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.navbar_menu li {
+  border-radius: 30px;
+  padding: 10px;
+  transition: all 200ms ease-in;
+}
+
+.navbar_menu li:hover {
+  background-color: var(--color-orange);
+}
+
 .my_image {
   background-color: var(--color-silver);
   border-radius: 50%;
-  margin: 20px;
+  margin: 30px;
 }
 
 .my_image:hover {
@@ -80,22 +90,30 @@ a {
 }
 
 .Info {
-  background-color: var(--color-silver);
+  background-color: var(--color-gray);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-.Info img {
-  width: 150px;
-  height: 150px;
+.click_ment {
+  background-color: var(--color-white);
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .my_info {
   text-align: center;
   padding: 20px;
   font-weight: var(--weight-semi-bold);
+  background-color: silver;
+  border-radius: 30px;
+  transition: all 500ms ease-in-out;
+}
+
+.hide {
+  display: none;
 }
 
 .my_info li {
@@ -117,7 +135,7 @@ a {
 .Hobby {
   text-align: center;
   padding: 15px;
-  margin: 20px;
+  margin: 70px;
 }
 
 .hobby_word {
@@ -139,16 +157,16 @@ a {
 }
 
 .hobby_list li img {
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
 }
 
 .hobby_description {
   background-color: var(--color-black);
   color: var(--color-white);
   position: absolute;
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
   top: 0;
   left: 0;
   display: flex;
