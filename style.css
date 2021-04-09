@@ -209,9 +209,11 @@ a {
   margin: 20px;
 }
 
-.contact_email {
+.contact_email,
+.contact_address {
   font-size: var(--font-regular);
   font-weight: var(--weight-semi-bold);
+  margin-bottom: 10px;
 }
 
 .contact_sns {
@@ -222,7 +224,6 @@ a {
 
 .contact_sns i {
   font-size: 50px;
-  margin: 10px;
 }
 
 .sns {
